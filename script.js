@@ -44,31 +44,31 @@ function initMap() {
   
   // add markers
   var red1 = L.marker([40.73364, -73.98383], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-1.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-1.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red2 = L.marker([40.72351, -73.98102], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-2.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-2.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red3 = L.marker([40.71551, -73.97845], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-3.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-3.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red4 = L.marker([40.71340, -73.97120], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-4.gif" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-4.gif" style="width: 125px; height: auto;"></div>').addTo(map),
       red5 = L.marker([40.70976, -73.99052], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-5.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-5.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red6 = L.marker([40.71694, -73.98315], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-6.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-6.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red7 = L.marker([40.72528, -73.97781], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-7.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-7.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red8 = L.marker([40.71148, -73.98674], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-8.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-8.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red9 = L.marker([40.72668, -73.98298], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-9.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-9.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red10 = L.marker([40.72665, -73.98225], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-10.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-10.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red11 = L.marker([40.72630, -73.98090], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-11.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-11.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red12 = L.marker([40.72508, -73.97742], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-12.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
+            .bindPopup('<div><img src="./images/red/red-12.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
       red13 = L.marker([40.72073, -73.98130], { icon: redIcon })
-            .bindPopup('<div><img src="/images/red/red-13.JPG" style="width: 125px; height: auto;"></div>').addTo(map);
+            .bindPopup('<div><img src="./images/red/red-13.JPG" style="width: 125px; height: auto;"></div>').addTo(map);
      
   var green1 = L.marker([40.72898, -73.98653], { icon: greenIcon })
             .bindPopup('<div><img src="/images/green/green-1.JPG" style="width: 125px; height: auto;"></div>').addTo(map),
