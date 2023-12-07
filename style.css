@@ -1,0 +1,44 @@
+.header-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: rem(36);
+}
+
+.header-title {
+    color: grey 
+}
+
+.map-container {
+    width: 100%;
+    height: 600px;
+}
+
+#map { 
+    width: 100%;
+    height: 600px; 
+}
+
+/* Custom styles for the layer control panel */
+.leaflet-control-layers {
+    background-color: rgba(255, 255, 255, 0.7); /* Set the background color with alpha transparency */
+    border: 0px solid #ccc; /* Set a border */
+    border-radius: 0px; /* Add border-radius for rounded corners */
+    padding: 10px; /* Add padding */
+}
+
+/* Style for the overlay layers list */
+.leaflet-control-layers-overlays {
+    margin-top: 10px; /* Add some spacing between base layers and overlay layers */
+}
+
+/* Style for the overlay layer labels */
+.leaflet-control-layers-overlays label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Style for the checkboxes */
+.leaflet-control-layers-overlays input {
+    margin-right: 5px;
+}
+ 
