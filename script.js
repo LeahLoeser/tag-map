@@ -31,7 +31,7 @@ var botyIcon = L.icon({
 // initialize map
 function initMap() {
     //set map view
-    var map = L.map("map").setView([40.72261, -73.98242], 14);
+    var map = L.map("map").setView([40.72261, -73.98942], 14);
 
     // access token for Mapbox API base map layer
     var accessToken = 'pk.eyJ1IjoibGVhbG8iLCJhIjoiY2xwa2swbHdzMDE1djJqbjA3ZjhxeHY3NCJ9._aMCD7AEOO-RB6R5Gip9OQ';
