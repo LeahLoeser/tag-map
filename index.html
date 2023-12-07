@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City As System: Tag Map</title>
+
+    <!-- leaflet CSS/JS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+    <!-- firebase SDK -->
+    <!-- <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.2.0/firebase-storage.js"></script> -->
+    
+    <!-- firebase config -->
+    <!-- <script>
+        var firebaseConfig = {
+            apiKey: "AIzaSyA3NHet2fzZGqSWLYRt6NKvnZHh9zDzw80",
+            authDomain: "city-as-system.firebaseapp.com",
+            projectId: "city-as-system",
+            storageBucket: "city-as-system.appspot.com",
+            messagingSenderId: "402662773643",
+            appId: "1:402662773643:web:dfc3e610b5f678f505d58e"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+    </script> -->
+
+    <!-- my CSS/JS -->
+    <link rel="stylesheet" href = "styles.css"/>
+    <script src="script.js"></script>
+
+</head>
+<body onload="initMap()">
+    <header class="header-container">
+        <div class="header-title">
+            <h1>Tag Map</h1>
+        </div>
+    </header>
+
+    <div class="map-container">
+        <div id="map"></div>
+    </div>
+
+</body>
+</html>
