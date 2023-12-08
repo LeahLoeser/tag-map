@@ -1,0 +1,4 @@
+DEEPLY NESTED OBJECT
+Part 1: Study
+
+(detailed description of what you will represent
